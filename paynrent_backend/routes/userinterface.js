@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var pool = require("./pool");
-// var upload = require("./multer");
+var upload = require("./multer");
 var fs = require("fs");
 var dotenv = require("dotenv");
 
